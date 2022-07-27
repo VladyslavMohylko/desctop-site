@@ -1,0 +1,208 @@
+@font-face {
+    font-family: BIG JOHN;
+    src: url(/fonts/BIG\ JOHN.otf);
+}
+@font-face {
+    font-family: OpenSansLight;
+    src: url(/fonts/OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: OpenSansRegular;
+    src: url(/fonts/OpenSans-Regular.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1900px;
+    font-family: BIG JOHN;
+}
+
+p {
+    font-family: OpenSansLight;
+    margin: 0;
+}
+h1,h2,h3, h5 {
+    margin: 0;
+}
+
+header {
+    background-color: #f8cf00;
+    /* border: 2px solid green; */
+    padding: 1px;
+}
+
+.menu {
+    margin: 60px 0 0 200px;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+}
+
+.page-nav {
+    color: black;
+    text-decoration: none;
+    /* border: 1px green solid; */
+    border-radius: 17px;
+    padding: 18px 33px;
+    margin-right: 2px;
+    font-size: 16px;
+}
+
+.active {
+    background-color: black; 
+    color: #f8cf00;
+}
+
+.header-content {
+    border: 1px gray solid;
+    background-image: 
+    url(/images/ponchyk.png), 
+    url(/images/Glasses.png), 
+    url(/images/pomydor.png),
+    url(/images/Scroll.png),
+    url(/images/Shape\ 3\ copy\ 4.png);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position: 38% 340px, 50% 360px, 77% 176px, 50% 96%, 50% 1%;
+    /* background-size: 65%, 26%, 15%, 1.5%, 92%; */
+    background-size: 65%, 26%, 15%, 28px, 1743px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 260px;
+}
+
+.header-content h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 85px;
+}
+
+.but {
+    background-image: 
+    url(/images/Shape\ 2.png),
+    url(/images/Shape\ 2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 49% 269px, 51% 277px;
+    background-size: 300px, 300px;
+}
+.header-button {
+    font-family: BIG JOHN;
+    border: 5px black solid;
+    border-radius: 17px;
+    padding: 12px 25px;
+    margin-right: 2px;
+    background-color: #fad663;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 247px;
+}
+/* header styles end  */
+
+/* main styles start */
+main {
+    min-height: 900px;
+    border: 2px solid cyan;
+    padding: 0;
+}
+.i-do {
+    border: 2px solid navy;
+    padding: 0 200px 120px;
+    background-image:  url(/images/Shape\ 3\ copy\ 4.png);
+    background-size: 1743px;
+    background-repeat: no-repeat;
+    background-position: 50% 19.3%;
+}
+.i-do-title {
+    border: 2px solid navy;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    padding: 110px 0;
+    background-image: 
+    url(/images/Shape\ 2.png),
+    url(/images/Shape\ 2.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 12% 239px, 19% 250px;
+    background-size: 525px 4px, 525px 4px;
+}
+.i-do-header {
+    /* padding-left: 128px; */
+    text-align: right;
+    width: 670px;
+    height: auto;
+}
+.i-do-header h2 {
+    font-size: 85px;
+}
+.i-do-desc {
+    font-size: 18px;
+    width: 670px;
+    height: auto;
+    line-height: 34px;
+}
+.i-do-specs {
+    min-height: 480px;
+    display: flex;
+    justify-content: space-between;
+}
+.specs-info {
+    border: 1px solid black;
+    width: 450px;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 5px;
+    background-image: 
+    url(/images/Shape\ 3\ copy\ 10.png);
+    background-repeat: no-repeat;
+    background-position: 50% 55%;
+}
+.specs-img1 {
+    background-image: url(/images/Headphones.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom
+}
+.specs-img2 {
+    background-image: url(/images/Screen.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom
+}
+.specs-img3 {
+    background-image: url(/images/Camera.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: bottom
+}
+.i-do-specs h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    margin-top: 110px;
+}
+/* i do styles :end */
+
+/* work :start  */
+
+.my-work {
+    background-color: #fad663;
+    min-height: 600px;
+}
+
+
+
+
+/* work end  */
+/* footer start  */
+
+footer {
+    min-height: 600px;
+    background-color: #d2eae3;
+}
+
+
+
