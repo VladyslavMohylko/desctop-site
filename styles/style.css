@@ -423,9 +423,11 @@ main {
 
 
 footer {
-    display: flex;
-    background-color: #d2eae3;
     padding: 25px 200px;
+    background-color: #d2eae3;
+}
+.cont-footer {
+    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -439,5 +441,121 @@ footer {
     color: #d2eae3;
 }
 
+@media (max-width: 1920px) {
+    header {
+        background-color: #f8cf00;
+        /* border: 2px solid green; */
+        padding: 60px 175px 0;
+    }
+    .header-content {
+        margin: 0 auto;
+        max-width: 1500px;
+        /* border: 1px gray solid; */
+        background-image: url(../images/ponchyk.png), url(../images/Glasses.png), url(../images/pomydor.png), url(../images/Scroll.png), url(../images/Shape\ 3\ copy\ 4.png);
+        background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+        background-position: 21% 346px, 50% 373px, 84% 265px, 50% 653px, 50% 247px;
+        /* background-size: 65%, 26%, 15%, 1.5%, 92%; */
+        background-size: 785px, 270px, 174px, 13px, 914px;
+        text-align: center;
+        padding-top: 72px;
+        padding-bottom: 182px;
+    }
+    .i-do {
+        /* border: 2px solid navy; */
+        padding: 0 50px 53px;
+        background-image: url(../images/Shape\ 3\ copy\ 4.png);
+        background-size: 1012px;
+        background-repeat: no-repeat;
+        background-position: 50% -385px;
+    }
+    .i-do-title {
+        /* border: 2px solid navy; */
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: nowrap;
+        padding: 110px 0;
+        gap: 65px;
+    }
+    .i-do-header {
+        /* padding-left: 128px; */
+        text-align: right;
+        width: 585px;
+        height: auto;
+    }
+    .i-do-desc {
+        font-size: 18px;
+        width: 585px;
+        height: auto;
+        line-height: 31px;
+    }
+    .i-do-header h2 {
+        font-size: 65px;
+        position: relative;
+    }
+    .i-do-header h2::after {
+        content: '';
+        background: url(../images/Shape\ 2.png);
+        width: 466px;
+        height: 5px;
+        position: absolute;
+        top: 93px;
+        right: 22px;
+    }
+    .i-do-header h2::before {
+        content: '';
+        background: url(../images/Shape\ 2.png);
+        width: 464px;
+        height: 5px;
+        position: absolute;
+        top: 110px;
+        right: -34px;
+    }
+    .container-work {
+        margin: 0 auto;
+        max-width: 1900px;
+        min-height: 400px;
+        padding-top: 35px;
+        background-image: none;
+    }
+    .work-title h2 {
+        font-size: 65px;
+        text-align: center;
+        position: relative;
+    }
+    .contact {
+        /* border: 2px salmon solid; */
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        padding: 0px 15px;
+    }
+    .work-title h2::before {
+        content: '';
+        background: url(../images/Shape\ 2.png);
+        width: 455px;
+        height: 5px;
+        position: absolute;
+        top: 111px;
+        right: 308px;
+    }
+    .work-title h2::after {
+        content: '';
+        background: url(../images/Shape\ 2.png);
+        width: 455px;
+        height: 5px;
+        position: absolute;
+        top: 95px;
+        right: 364px;
+    }
+    .work-title {
+        text-align: right;
+        height: auto;
+        margin: 0 auto;
+        margin-bottom: 40px;
+        padding: 70px 0;
+    }
+}
 
 
